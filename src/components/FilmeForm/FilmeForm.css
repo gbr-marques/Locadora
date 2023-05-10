@@ -1,0 +1,75 @@
+.novo_filme_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container {
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.form {
+    max-width: 1200px;
+    padding: 2rem;
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(121deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.1) 0%, rgba(37, 37, 37, 0.451) 100%);border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 1rem;
+    color: white;
+    box-shadow: 0px 14px 25px -9px rgba(0,0,0,0.56);
+    height: 90%;
+}
+
+.campo_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+label {
+    font-weight: 500;
+    /* font-size: 1.25rem; */
+}
+
+input, select {
+    border: 1px solid #FF1E56;
+    background-color: #343434;
+    color: white;
+}
+
+button {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #FFAC41;
+}
+
+.campo {
+    border-radius: 8px;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+
+.campo::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form button {
+    background-color: #FF1E56;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+}
+
+.aval svg {
+    color: #FFAC41 !important;
+}
